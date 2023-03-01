@@ -38,6 +38,11 @@ int ternary() {
 }
 
 int postfix() {
+    // x++ : merupakan postfix
+    // ++x : merupakan prefix
+    // jika y = ++x; // 1;
+    // jika y = x++ // 0;
+    
     printf("\n postfix : \n");
     int x = 0;
     int y = x++;
@@ -52,6 +57,8 @@ int postfix() {
     
     return 0;
 }
+
+
 
 // Main Program here
 int main() {
