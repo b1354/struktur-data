@@ -16,7 +16,7 @@ int dataCasting () {
     float f_num;
     int i_num;
     
-    printf("\n Enter any integer: ");
+    printf("Enter any integer: ");
     scanf("%d", &i_num);
     
     f_num = (float)i_num;
@@ -58,7 +58,40 @@ int postfix() {
     return 0;
 }
 
+int ganjilGenap() {
+    printf("\n\n Ganjil Genap \n");
+    int x;
+    
+    printf("enter a number: ");
+    scanf("%d", &x);
+    
+    if (x == 0) {
+        printf("%d is equal to zero", x);
+    } else if (x%2 == 0) {
+        printf("%d is even\n", x);  
+    } else {
+        printf("%d is odd\n", x);
+    }
+    
+    return 0;
+}
 
+int zeroInt () {
+    int num;
+    
+    printf("\n Enter a number: ");
+    scanf("%d", &num);
+    
+    if (num == 0) {
+        printf("\n The number value is equal to zero");
+    } else if (num > 0) {
+        printf("\n The number is possitive");
+    } else {
+        printf("\n The number is negative");
+    }
+    
+    return 0;
+}
 
 // Main Program here
 int main() {
@@ -73,6 +106,8 @@ int main() {
     printf("%d\n", x);
     
     jumlahkan();
+    ganjilGenap();
     dataCasting();
+    zeroInt();
     return 0;
 }
