@@ -96,15 +96,12 @@ int zeroInt () {
 // Main Program here
 int main() {
     // Write C code here
-    ternary();
-    postfix();
-    
-    
     int a = 2, b = 3, x = 0;
     x = (a++, b+=a);
-    
     printf("%d\n", x);
     
+    ternary();
+    postfix();
     jumlahkan();
     ganjilGenap();
     dataCasting();
