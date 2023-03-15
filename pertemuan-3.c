@@ -6,7 +6,7 @@ int forDoubleVar()
     int i,j;
     
     for (i=0, j=10; i<=j; j--, i++) {
-        printf("%d %d\n", i, j);
+        printf("i=%d j=%d\n", i, j);
     }
     
     return 0;
@@ -26,9 +26,9 @@ int cariPrima()
         }
     }
     if (flag == 1) {
-        printf("\n%d is omposite number", num);
+        printf("\n%d is omposite number\n", num);
     } else {
-        printf("\n%d is a prime number", num);
+        printf("\n%d is a prime number\n", num);
     }
     return 0;
 }
