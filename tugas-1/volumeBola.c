@@ -9,7 +9,6 @@ int main ()
   scanf("%f", &r);
 
   volume = (4.0/3.0) * (PI * (r*r*r));
-  float a = (PI * (r*r*r));
 
   printf("hasil %dcm³\n", (int) volume);
 
