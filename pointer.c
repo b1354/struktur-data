@@ -15,12 +15,12 @@ int basic_pointer () {
 
   printf("Enter the number: ");
   scanf("%d", pnum);
-  printf("The number that was entered is: %d", *pnum);
+  printf("The number that was entered is: %d", pnum);
   return 0;
 }
 
 int array_pointer() {
-  int [5] = {1,3,2,6,4};
+  int a[5] = {1,3,2,6,4};
   int *pparray; // pastikan tipe data pointer dan data yang ditunjuk sama
   pparray=a; // default nya akan memberikan alamat index ke 1;
 
@@ -28,7 +28,7 @@ int array_pointer() {
   printf("%d",*pparray);
   
   // mencetak index ke 2
-  pparray++
+  pparray++;
   printf("%d", *pparray);
 
   return 0;
