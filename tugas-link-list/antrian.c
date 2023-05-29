@@ -90,9 +90,6 @@ int main() {
       default:
         printf("perintah tidak dikenali (ENTER untuk melanjutkan)!!\n");
         break;
-    }
-
-    
-    scanf("%s", &test);
+    } 
   }
 }
