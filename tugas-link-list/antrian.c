@@ -59,7 +59,6 @@ void printAntrian() {
 int main() {
   int input;
   int repeat = 1;
-  char test;
 
   while(repeat) {
     system(CONSOLE_CLEAR);
