@@ -20,7 +20,7 @@ void pushData ()
 {
   current = (struct antrian*)malloc(sizeof(struct antrian));
   
-  if (head==NULL) {
+  if (head==NULL || head->nomor == 0) {
     current->nomor = 1;
     head = tail = current;
   }
@@ -39,8 +39,9 @@ void delData() {
     current = head->berikut;
     free(head);
     head = current;
+  } else {
+    head->nomor = 0;
   }
-  return;
 }
 
 void printAntrian() {
