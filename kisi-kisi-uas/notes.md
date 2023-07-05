@@ -43,3 +43,16 @@ float *pfloat;
 # link list
 Link list didefinisikan sebagai daftar, didefinisikan juga sebagai hubungan/kaitan.
 Link list jika didefinisikan secara bebas adalah daftar yang saling terkait. dimana daftar merupakan representasi dari data.
+
+## antrian
+pengertian antrian adalah proses pemasukan data dari belakang ``tail`` dan pengeluaran data dari depan ``head``.
+
+## tumpukan
+pengertian tumpukan adalah proses pemasukan data dari depan ``head`` dan pengeluaran data dari depan ``head`` juga
+
+# Double link list
+double linklist hampir sama dengan link list, tetapi double link list mempunyai 2 arah penunjuk data yaitu ``next`` dan ``prev``
+
+## binary Tree
+Binary tree menggunakan struktur double link list, pendefinisian data dimulai dari root atau sebagai
+awal data kemudian diikuti pengisian data berikutnya di left atau right.
